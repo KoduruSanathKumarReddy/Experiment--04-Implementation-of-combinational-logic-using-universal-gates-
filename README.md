@@ -26,11 +26,36 @@ Write the detailed procedure here
 ## Program:
 /*
 Program to design a Implementation of combinational logic using universal gates-  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Koduru Sanath Kumar Reddy.
+RegisterNumber:  212221240024.
+```
+module Exp4e1(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire f1,f2,f3;
+assign f1 = (~c&~b&~a);
+assign f2 = (~d&~c&~a);
+assign f3 = (c&~(~b)&~a);
+assign f= f1&~f2&~f3;
+endmodule
+
+```
 */
 
 ## Output:
+## Function 1:
+
+## Truthtable
+
+
+
+##  RTL realization
+
+
+## Timing diagram 
+
+
+## Function 2:
 
 ## Truthtable
 
