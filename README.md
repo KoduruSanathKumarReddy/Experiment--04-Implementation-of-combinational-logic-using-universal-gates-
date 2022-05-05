@@ -50,7 +50,7 @@ endmodule
 
 
 ##  RTL realization
-
+![](fun1rt.png)
 
 ## Timing diagram 
 
