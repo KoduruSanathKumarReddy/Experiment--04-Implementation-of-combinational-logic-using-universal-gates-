@@ -29,6 +29,7 @@ Program to design a Implementation of combinational logic using universal gates-
 Developed by: Koduru Sanath Kumar Reddy.
 RegisterNumber:  212221240024.
 ```
+USING NAND
 module Exp4e1(a,b,c,d,f);
 input a,b,c,d;
 output f;
@@ -37,6 +38,18 @@ assign f1 = (~c&~b&~a);
 assign f2 = (~d&~c&~a);
 assign f3 = (c&~(~b)&~a);
 assign f= f1&~f2&~f3;
+endmodule
+
+USING NOR
+module Exp4e2(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire f1,f2,f3,f4;
+assign f1 = c&(~b)&a;
+assign f2 = d&(~c)&a;
+assign f3 = c&(~b)&a;
+assign f4 = ~(f1|f2|f3);
+not(f,f4);
 endmodule
 
 ```
@@ -62,6 +75,7 @@ endmodule
 
 
 ##  RTL realization
+![](fun2rt.png)
 
 
 ## Timing diagram 
