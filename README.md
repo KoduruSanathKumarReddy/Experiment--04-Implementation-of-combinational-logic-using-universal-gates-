@@ -59,26 +59,25 @@ endmodule
 ## Function 1:
 
 ## Truthtable
-
-
+![](truth1.png)
 
 ##  RTL realization
 ![](fun1rt.png)
 
 ## Timing diagram 
-
+![](time1.png)
 
 ## Function 2:
 
 ## Truthtable
-
-
+![](truth2.png)
 
 ##  RTL realization
 ![](fun2rt.png)
 
 
 ## Timing diagram 
+![](time2.png)
 
 ## Result:
  
