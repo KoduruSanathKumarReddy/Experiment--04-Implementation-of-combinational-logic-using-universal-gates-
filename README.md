@@ -26,7 +26,11 @@ Write the detailed procedure here
 ## Program:
 /*
 Program to design a Implementation of combinational logic using universal gates-  and verify its truth table in quartus using Verilog programming.
+
+
 Developed by: Koduru Sanath Kumar Reddy.
+
+
 RegisterNumber:  212221240024.
 ```
 USING NAND
@@ -80,4 +84,4 @@ endmodule
 ![](time2.png)
 
 ## Result:
- 
+ Thus implementation of logic functions using NAND and NOR gates is done and its operation is verified in Quartus using Verilog programming.
